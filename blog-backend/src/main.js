@@ -5,6 +5,7 @@ import bodyParser from 'koa-bodyparser';
 import mongoose from 'mongoose';
 
 import api from './api';
+// import createFakeData from './createFakeData'; //가상데이터를 만들기 위한 작업
 
 // 비구조화 할당을 통해 process.env 내부 값에 대한 레퍼런스 만들기
 // eslint-disable-next-line no-undef
